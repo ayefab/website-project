@@ -1,0 +1,21 @@
+h1 {
+  font-size: 45px;
+  color: #777;
+  padding: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 49.5px;
+  margin-bottom: 0px;
+  border-width: 10px;
+
+}
+
+style {
+  margin-left: 10px;
+  padding-left: 10px;
+}

@@ -4,6 +4,10 @@ body {
   background-image: url("http://unrtd.co/wp-content/uploads/2017/07/Jay-z-kill-jay-z-music-video-1.jpg");
 }
 
+style h1{
+font-size: 15px; 
+}
+
 nav.ul {
   color: #999;
 }
