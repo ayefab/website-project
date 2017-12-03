@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
     <link rel="stylesheet" href="../css/foundation.css">
     <link rel="stylesheet" href="../css/app.css">
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/content.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   </head>
   <body>
 
@@ -87,6 +88,38 @@
     <!--End Content-->
 
     <!--Begin Footer-->
+    <style>
+  .mySlides {display:none;}
+  </style>
+  <body>
+
+  <h2 class="w3-center">Automatic Slideshow</h2>
+
+  <div class="w3-content w3-section" style="max-width:500px">
+    <img class="mySlides" src="http://img.wennermedia.com/article-leads-horizontal/rs-15355-20140521-biggie-x1800-1400691935.jpg" style="width:100%">
+    <img class="mySlides" src="http://unrtd.co/wp-content/uploads/2017/07/Jay-z-kill-jay-z-music-video-1.jpg" style="width:100%">
+    <img class="mySlides" src="http://dayandadream.com/wp-content/uploads/2012/11/nas-houston-3.jpg" style="width:100%">
+    <img class="mySlides" src="https://www.billboard.com/files/styles/article_main_image/public/media/tupac-shakur-resurrection-2016-billboard-1548.jpg" style="width:100%">
+    <img class="mySlides" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/50_cent_in_concert.jpg" style="width:100%">
+    <img class="mySlides" src="https://images-na.ssl-images-amazon.com/images/I/81o6cAowc8L._SL1000_.png" style="width:100%">
+  </div>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
 
     <!--End Footer-->
 
